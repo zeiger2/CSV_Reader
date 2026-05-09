@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 457,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\main.c",
+              "RelativeDocumentMoniker": "CSV_Reader\\main.c",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\main.c*",
+              "RelativeToolTip": "CSV_Reader\\main.c*",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-09T15:19:18.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 65,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
