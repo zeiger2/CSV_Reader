@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\table.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\table.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\comput.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\comput.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\comput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\comput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14C05334-3A5E-4C43-B03A-FA69B46FDA25}|CSV_Reader\\CSV_Reader.vcxproj|solutionrelative:CSV_Reader\\table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 457,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "comput.c",
+              "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\comput.c",
+              "RelativeDocumentMoniker": "CSV_Reader\\comput.c",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\comput.c",
+              "RelativeToolTip": "CSV_Reader\\comput.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-11T09:32:07.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "comput.h",
+              "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\comput.h",
+              "RelativeDocumentMoniker": "CSV_Reader\\comput.h",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\comput.h",
+              "RelativeToolTip": "CSV_Reader\\comput.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T09:31:47.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "table.c",
+              "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\table.c",
+              "RelativeDocumentMoniker": "CSV_Reader\\table.c",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\table.c",
+              "RelativeToolTip": "CSV_Reader\\table.c",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-11T09:30:26.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "table.h",
+              "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\table.h",
+              "RelativeDocumentMoniker": "CSV_Reader\\table.h",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\table.h",
+              "RelativeToolTip": "CSV_Reader\\table.h",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T09:30:11.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "utils.c",
+              "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\utils.c",
+              "RelativeDocumentMoniker": "CSV_Reader\\utils.c",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\utils.c",
+              "RelativeToolTip": "CSV_Reader\\utils.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-11T09:27:58.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "utils.h",
+              "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\utils.h",
+              "RelativeDocumentMoniker": "CSV_Reader\\utils.h",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\utils.h",
+              "RelativeToolTip": "CSV_Reader\\utils.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T09:27:01.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\main.c",
               "RelativeDocumentMoniker": "CSV_Reader\\main.c",
-              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\main.c*",
-              "RelativeToolTip": "CSV_Reader\\main.c*",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJIAAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\zvere\\source\\repos\\CSV_Reader\\CSV_Reader\\main.c",
+              "RelativeToolTip": "CSV_Reader\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-09T15:19:18.917Z",
               "EditorCaption": ""

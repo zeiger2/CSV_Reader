@@ -18,5 +18,25 @@
     <ClCompile Include="main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="table.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="comput.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="comput.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
