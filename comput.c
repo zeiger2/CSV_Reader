@@ -5,8 +5,7 @@
 #include <ctype.h>
 #include <math.h>
 
-
-//double compute_cell_value(int col_idx, int row_idx);
+static int cycle_flag = 0;
 
 // Запрос на получения значения в ячейках
 double get_cell_value_by_names(const char* col_name, int row_num) {
@@ -45,18 +44,16 @@ double arg_to_number(const char* s) {
 // Парсит выражение
 double compute_cell_value(int col_idx, int row_idx) {
     Cell* cell = &rows[row_idx].cells[col_idx];
+
     if (cell->computed) {
         return cell->value;
     }
     if (cell->computing) {
-        cell->computed = 1;
-        cell->value = 0.0;
-        cell->computing = 0;
+        cycle_flag = 1;
         return 0.0;
     }
     if (!cell->is_formula) {
         cell->computed = 1;
-        cell->computing = 0;
         return cell->value;
     }
     cell->computing = 1;
@@ -104,11 +101,16 @@ double compute_cell_value(int col_idx, int row_idx) {
     free(left_trim);
     free(right_trim);
     double result = 0.0;
-    switch (op) {
-    case '+': result = arg1 + arg2; break;
-    case '-': result = arg1 - arg2; break;
-    case '*': result = arg1 * arg2; break;
-    case '/': result = (arg2 != 0.0) ? arg1 / arg2 : 0.0; break; // Если деление на 0, отдаем 0
+    if (!cycle_flag) {
+        switch (op) {
+        case '+': result = arg1 + arg2; break;
+        case '-': result = arg1 - arg2; break;
+        case '*': result = arg1 * arg2; break;
+        case '/': result = (arg2 != 0.0) ? arg1 / arg2 : 0.0; break;
+        }
+    }
+    else {
+        result = 0.0;
     }
     free(trimmed);
     cell->value = result;

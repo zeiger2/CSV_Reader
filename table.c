@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include <math.h>
 
 Column* columns = NULL;
 int col_count = 0;
@@ -26,6 +27,9 @@ int read_csv(const char* filename) {
         fclose(f);
         return 0;
     }
+    // удаляем символы перевода строки
+    line[strcspn(line, "\r\n")] = '\0';
+
     // пропускаем возможные пустые строки
     while (strlen(line) == 0 && fgets(line, sizeof(line), f)) {
         line[strcspn(line, "\r\n")] = '\0';
@@ -38,6 +42,7 @@ int read_csv(const char* filename) {
 
     int n_fields = 0;
     char** header_fields = split_csv(line, &n_fields);
+
     if (!header_fields || n_fields == 0) {
         printf("Error: cannot parse header.\n");
         if (header_fields) free_strings(header_fields, n_fields);
